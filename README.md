@@ -1,12 +1,12 @@
 # Lumia Stream API Demo
 
-## Check out the full tutorial at [lumiacove/dev](https://lumiacove.com/dev)
+## Check out the full tutorial at [lumiastream/dev](https://lumiastream.com/dev)
 
 ### Summary
 This is the demo that will trigger the Lumia Stream API
 
 ### How to use
-1) Clone the repository `git clone https://github.com/lumiacove/lumiastream-api-demo-py.git`
+1) Clone the repository `git clone https://github.com/lumiastream/lumiastream-api-demo-py.git`
 2) CD into the repo and Run `pip install --requirement requirements.txt  `
 3) Start Lumia Stream and Turn on the Rest API by going to `Settings > Advanced > Enable REST Api
 4) After the REST API is enabled, you'll be presented with a token in Lumia Stream. Copy it
