@@ -1,6 +1,7 @@
 from time import sleep
 import requests
 
+# Paste token from Lumia Stream (Settings > Advanced > Developers API > Show Token)
 token = 'paste-token-here'
 
 # Get settings
