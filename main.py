@@ -19,16 +19,16 @@ requests.post('http://localhost:39231/api/send?token=' + token,
 sleep(1)
 
 # Send RGB Colors with Brightness
-requests.post('http://localhost:39231/api/send?token=' + token, json={type: 'rgb-color', 'params': {
+requests.post('http://localhost:39231/api/send?token=' + token, json={'type': 'rgb-color', 'params': {
               'value': {'r': 20, 'g': 100, 'b': 10}, 'brightness': 100, 'transition': 0, 'duration': 5000}})
 sleep(1)
 
 # Send Text To Speech
 requests.post('http://localhost:39231/api/send?token=' + token,
-              json={type: 'tts', 'params': {'value': 'Wow, this tutorial is so cool'}})
+              json={'type': 'tts', 'params': {'value': 'Wow, this tutorial is so cool'}})
 sleep(1)
 
 # Send Chatbot message
 requests.post('http://localhost:39231/api/send?token=' + token,
-              json={type: 'chatbot-message', 'params': {'value': 'Wow, this tutorial is so cool', 'platform': 'twitch'}})
+              json={'type': 'chatbot-message', 'params': {'value': 'Wow, this tutorial is so cool', 'platform': 'twitch'}})
 sleep(1)
